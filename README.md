@@ -34,7 +34,7 @@ We have to modify the mod_push.erl file, because we need the publish options on 
 
 Location of the mod_push: YourEjabberdFolder/src/mod_push.erl
 
-Replace line 428 with the following code: 
+Replace line 428 with the following code:<Enter>
 ``` Item = #ps_item{xml_els = [xmpp:encode(#push_notification{xdata = XData})]},```
 
 Now, go your ejabberd folder and execute the following commands.
