@@ -4,6 +4,7 @@ Description: This guide shows how to enable push notifications in the app (clien
 ### Requirements:
 - Installed Ejabberd 17.09 (cloned from the github repository)
 - Smack API (Android based)
+- Firebase Cloud Messaging (FCM) enabled in the app
 
 ### Step 1: Enable push notification service (client side)
 After your user is logged in, you can execute the command to enable the push service with the following code.
