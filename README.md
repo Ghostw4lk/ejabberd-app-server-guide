@@ -38,9 +38,9 @@ Replace line 428 with the following code:<Enter>
 ``` Item = #ps_item{xml_els = [xmpp:encode(#push_notification{xdata = XData})]},```
 
 Now, go your ejabberd folder and execute the following commands.
-1. make
+1. make               (Compiles the modified mod_push.erl)
 2. make install
-3. ejabberdctl stop (If your ejabberd server is currently running).
+3. ejabberdctl stop   (If your ejabberd server is currently running).
 4. ejabberdctl start
 5. ejabberdctl status (Make sure your server is running fine).
 
